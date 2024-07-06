@@ -1,0 +1,73 @@
+body {
+    background: mintcream;
+}
+
+.emploi {
+    margin: 0 auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.7);
+}
+
+table {
+    background: black;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    height: 300px;
+    width: 800px;
+}
+
+table td {
+    background: mintcream;
+    width: 780px;
+
+}
+header h1 {
+    text-align: center;
+
+}
+
+.btn {
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+    padding: 5px;
+    width: auto:
+    height: 100px;
+
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-2 {
+    margin-left: 88%;
+}
+.btn-1 {
+    margin-left: 2%;
+    padding: 3px;
+
+}
+
+.article {
+    margin: 0 auto;
+    height: 300px;
+    width: 600px;
+    background: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.7);
+
+}
+
+.app {
+    margin-left: 4px;
+    background: black;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #333;
+}

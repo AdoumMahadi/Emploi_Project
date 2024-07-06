@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}<title>Home emploi</title>{% endblock %}
+
+{% block content %}
+<div class="app">
+    <a href="{% url 'home' %}">Acceuil</a>
+</div>
+
+<header>
+    <h1>Bienvenue sur la page de l'emploi du temps</h1>
+</header>
+
+<main>
+    <div class="emploi">
+        <table>
+
+            <tr>
+                {% for title in data_title %}
+                <td>{{ title }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                {% for occupe in data_occupee %}
+                <td>{{ occupe|date:"d F y" }} à 08h00min</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                {% for fixee in data_non_occupee %}
+                <td>{{ fixee|date:"d F Y H\hi" }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                {% for vide in data_vide %}
+                <td>{{ vide }}</td>
+                {% endfor %}
+            </tr>
+
+        </table>
+    </div>
+</main>
+{% endblock %}
