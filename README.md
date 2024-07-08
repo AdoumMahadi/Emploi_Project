@@ -1,5 +1,12 @@
 # C'est le projet de l'emploi du temps
 
+Installations:
+
+```bash
+$ git clone https://github.com/AdoumMahadi/Emploi_Project.git
+$ cd Emploi_Project
+```
+
 Créé un environnement virtuel:
 
 ```bash
